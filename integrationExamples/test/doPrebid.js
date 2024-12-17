@@ -1,6 +1,6 @@
 const logHeader = '[PREBID]'
 function loadPrebidAndExecute(callback) {
-    console.log(`${logHeader} Caricamento Prebid.js...`);
+    console.log(`${logHeader} Caricamento ciaoPrebid...`);
     const script = document.createElement('script');
     script.src = "../../build/dev/prebid.js";
     script.async = true;
