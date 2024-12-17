@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pubmatic test</title>
+    <script async src="../../build/dev/prebid.js"></script>
+    <script src="./conf/pubmatic.js"></script>
+    <script src="doPrebid.js"></script>
+
+
+</head>
+
+<body>
+    <h1>Capocchio PubMatic</h1>
+
+    <div id="div-gpt-ad-12345-0" style="width: 300px; height: 250px; border: 2px solid red;"></div>
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.onload = function () {
+            loadPrebidAndExecute(doPrebid);
+        };
+    </script>
+</body>
+
+</html>
